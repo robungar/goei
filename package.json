@@ -1,0 +1,21 @@
+{
+  "name": "goei",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cheerio": "^0.22.0",
+    "circular-json": "^0.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "hjs": "~0.0.6",
+    "json2csv": "^3.7.3",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2",
+    "superagent": "^3.5.2"
+  }
+}

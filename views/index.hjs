@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h2>Paste your text below</h2>
+    <form action="/convert" method="post">
+    	<textarea name="text" rows=20 cols=40></textarea><br />
+    	<input type="submit" value="CONVERT">
+    </form>
+  </body>
+</html>
