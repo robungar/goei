@@ -36,7 +36,7 @@
                 <h2>Paste your text below</h2>
               </div>
               <form action="/convert" method="post">
-                <textarea name="text" rows=20 cols=40></textarea><br />
+                <textarea style="color: black;" name="text" rows=20 cols=40></textarea><br />
                 <input class="button button-xlarge button-dark" type="submit" value="CONVERT">
               </form>
             </div>
