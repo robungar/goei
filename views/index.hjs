@@ -23,20 +23,21 @@
   <title>Goei Scraper 5000</title>
 
   </head>
-  <body class="stretched">
+  <body class="stretched" style="background-color: #282828;">
 
     <!-- Document Wrapper
     ============================================= -->
     <div id="wrapper" class="clearfix">
       <section id="content">
         <div class="content-wrap nopadding">
-          <div class="section nomargin noborder bgcolor dark" style="padding: 80px 0;">
+          <div class="section nomargin noborder dark" style="padding: 80px 0;">
             <div class="container center clearfix">
+              <img src="/images/goei-group-logo.png" class="center">
               <div class="heading-block">
-                <h2>Paste your text below</h2>
+                <h2 style="color: #96CA50">Paste your text below</h2>
               </div>
               <form action="/convert" method="post">
-                <textarea style="color: black;" name="text" rows=20 cols=40></textarea><br />
+                <textarea style="color: black; background-color: #96CA50" name="text" rows=20 cols=40></textarea><br />
                 <input class="button button-xlarge button-dark" type="submit" value="CONVERT">
               </form>
             </div>
